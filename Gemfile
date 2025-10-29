@@ -3,7 +3,7 @@ source "https://rubygems.org"
 # （任意）使っている Ruby を明記
 # ruby "3.4.0"
 
-gem "rails", "~> 7.2.2", ">= 7.2.2.2"
+gem "rails", "~> 8.1.1"
 gem "sprockets-rails"
 gem "puma", ">= 5.0"
 gem "importmap-rails"
