@@ -28,7 +28,7 @@ gem "nokogiri", "~> 1.18"
 # 開発・テスト（ローカル）は SQLite / .env を読み込む
 group :development, :test do
   # SQLite は 1.7 系を推奨（Windows でも安定）
-  gem "sqlite3", "~> 1.7"
+  gem "sqlite3", "~> 2.8"
   gem "dotenv-rails"         # .env を読み込む
   gem "debug", platforms: %i[mri windows], require: "debug/prelude"
   gem "brakeman", require: false
